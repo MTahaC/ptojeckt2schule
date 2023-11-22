@@ -1,0 +1,38 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+#numberInput {
+    width: 100px;
+    padding: 5px;
+}
+
+#zielInput {
+    width: 100px;
+    padding: 5px;
+}
+
+#progressBar {
+    width: 100%;
+    height: 20px;
+    background-color: #ccc;
+    position: relative;
+}
+
+#filler {
+    height: 100%;
+    width: 0;
+    background-color: #4CAF50;
+    position: absolute;
+}
+
+#percentageText {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 20px;
+    color: white;
+}
+

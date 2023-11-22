@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleAdmin.css">
+</head>
+<body>
+    <div class="container">
+        <!-- ! ziel start -->
+        <input type="number" id="zielInput" placeholder="ziel"> 
+        <button onclick="updateZiel()">Enter</button>
+        <!-- ! ziel end-->
+        <br> <br>
+        <!-- ! number start-->
+        <input type="number" id="numberInput" placeholder="zahl..">
+        <button onclick="updateProgressBar()">Enter</button>
+        <!-- ! number end-->
+        <div id="progressBar">
+            <div id="filler"></div>
+            <div id="percentageText">0%</div>
+        </div>
+    </div>
+
+<script src="mainAdmin.js"></script>
+</body>
+</html>
